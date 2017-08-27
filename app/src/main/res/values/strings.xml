@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">虎鱼搜索</string>
+    <string name="sousuokuang">请输入搜索内容</string>
+    <string name="logo">虎鱼搜索</string>
+    <string name="LiS">搜索历史</string>
+    <string name="DelLiS">清除搜索历史</string>
+    <string name="Exit">退出登陆</string>
+</resources>

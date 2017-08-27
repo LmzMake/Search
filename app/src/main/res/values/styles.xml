@@ -1,0 +1,165 @@
+<resources>
+
+    <style name="Control"/>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">#710c68</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="MyEditText" parent="Control">
+        <item name="android:singleLine">true</item>
+        <item name="android:background">@drawable/edit_bg</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">32dp</item>
+        <item name="android:layout_margin">30dp</item>
+        <item name="android:layout_below">@id/llll</item>
+        <item name="android:hint">@string/sousuokuang</item>
+    </style>
+
+    <style name="MyImageView" parent="Control">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="MyTextView" parent="Control">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">25dp</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="MyLinearLayout" parent="Control">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">120dp</item>
+        <item name="android:layout_marginLeft">80dp</item>
+    </style>
+
+    <style name="MymkfImg" parent="Control">
+        <item name="android:onClick">onRecognise</item>
+        <item name="android:layout_marginTop">202dp</item>
+        <item name="android:background">@drawable/mkf</item>
+        <item name="android:layout_alignRight">@id/edittext</item>
+        <item name="android:layout_width">26dp</item>
+        <item name="android:layout_marginRight">45dp</item>
+        <item name="android:layout_height">26dp</item>
+    </style>
+
+    <style name="MySettingimg" parent="Control">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:src">@drawable/setting</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:layout_alignParentRight">true</item>
+    </style>
+
+
+    <style name="MyShareImg" parent="Control">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:src">@mipmap/share</item>
+        <item name="android:layout_marginRight">20dp</item>
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:layout_alignParentRight">true</item>
+    </style>
+
+    <style name="MySreachImg" parent="Control">
+        <item name="android:layout_marginTop">200dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:src">@mipmap/fdj</item>
+        <item name="android:layout_alignRight">@id/edittext</item>
+    </style>
+    1
+
+
+    <style name="MyLinearLayoutSqlite" parent="Control">
+        <item name="android:layout_below">@id/edittext</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_marginLeft">25dp</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="MyTextViewLiS" parent="Control">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">@string/LiS</item>
+        <item name="android:gravity">left|center_vertical</item>
+    </style>
+
+    <style name="MyListViewLiS" parent="Control">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="MyTextViewLs" parent="Control">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">25dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:text">@string/DelLiS</item>
+    </style>
+
+    <style name="MyLinearLayoutLogin" parent="Control">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">550dp</item>
+    </style>
+
+    <style name="MyImgQQ" parent="Control">
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:src">@mipmap/qq</item>
+    </style>
+
+    <style name="MyImgPhone" parent="Control">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:src">@mipmap/phone</item>
+    </style>
+
+    <style name="MyImgWeiBo" parent="Control">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:src">@mipmap/weibo</item>
+    </style>
+
+    <style name="MySettingListV" parent="Control">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_marginBottom">50dp</item>
+    </style>
+
+    <style name="MySettingButn" parent="Control">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:text">@string/Exit</item>
+        <item name="android:textColor">@color/Red</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:background">@color/TouM</item>
+    </style>
+
+    <style name="MyQQNc" parent="Control">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">25dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginTop">70dp</item>
+    </style>
+
+    <style name="MyQQTouX" parent="Control">
+        <item name="android:layout_width">50dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_marginTop">20dp</item>
+    </style>
+
+</resources>

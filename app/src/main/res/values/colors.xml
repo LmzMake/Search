@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="hui">#928383</color>
+    <color name="huang">#f5e508</color>
+    <color name="TouM">#0000</color>
+    <color name="Red">#fb063b</color>
+</resources>
